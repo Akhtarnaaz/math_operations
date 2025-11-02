@@ -1,14 +1,24 @@
-# Program to perform addition and subtraction of two numbers
+# Program to perform addition, subtraction, multiplication, and division
 
-# Taking input from the user
+# Take input from the user
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
-# Performing addition and subtraction
-sum_result = num1 + num2
-diff_result = num1 - num2
+# Perform operations
+addition = num1 + num2
+subtraction = num1 - num2
+multiplication = num1 * num2
 
-# Displaying the results to user
+# Check division by zero
+if num2 != 0:
+    division = num1 / num2
+else:
+    division = "Undefined (cannot divide by zero)"
+
+# Display results
 print("\nResults:")
-print(f"Addition: {num1} + {num2} = {sum_result}")
-print(f"Subtraction: {num1} - {num2} = {diff_result}")
+print("Addition:", addition)
+print("Subtraction:", subtraction)
+print("Multiplication:", multiplication)
+print("Division:", division)
+
