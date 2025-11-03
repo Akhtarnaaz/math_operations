@@ -8,7 +8,7 @@ num2 = float(input("Enter second number: "))
 sum_result = num1 + num2
 diff_result = num1 - num2
 
-# Displaying the results
+# Displaying the results to user
 print("\nResults:")
 print(f"Addition: {num1} + {num2} = {sum_result}")
 print(f"Subtraction: {num1} - {num2} = {diff_result}")
